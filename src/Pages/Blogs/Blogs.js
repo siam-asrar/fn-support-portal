@@ -18,7 +18,7 @@ const Blogs = () => {
                     </div>
                     <div>
                         <h3 className="text-secondary font-semibold">How does prototypical inheritance work?</h3>
-                        <p className="mt-1 dark:text-gray-200">JSON Web Token (JWT) is an open standard for securely transmitting information between parties as JSON object. It is compact, readable and digitally signed using a private key/ or a public key pair by the Identity Provider.</p>
+                        <p className="mt-1 dark:text-gray-200">The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit the properties and methods of another object.</p>
                     </div>
                     <div>
                         <h3 className="text-secondary font-semibold">What is a unit test? Why should we write unit tests?</h3>
