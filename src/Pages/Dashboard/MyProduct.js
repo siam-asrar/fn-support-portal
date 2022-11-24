@@ -11,7 +11,7 @@ const MyProduct = ({ myProduct }) => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure you want to delete this phone?');
         if (proceed) {
-            fetch(`http://localhost:4000/myProducts/${id}`, {
+            fetch(`https://b612-used-products-resale-server-side-siam-asrar.vercel.app/myProducts/${id}`, {
                 method: 'DELETE',
                 headers: {
                     authorization: `Bearer ${localStorage.getItem('serviceReview-token')}`

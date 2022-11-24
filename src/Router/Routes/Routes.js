@@ -36,7 +36,7 @@ export const router = createBrowserRouter([
             {
                 path: '/categories/:brand',
                 element: <PrivateRoute><Phones></Phones></PrivateRoute>,
-                loader: ({ params }) => fetch(`http://localhost:4000/categories/${params.brand}`)
+                loader: ({ params }) => fetch(`https://b612-used-products-resale-server-side-siam-asrar.vercel.app/categories/${params.brand}`)
             },
             {
                 path: '/login',
@@ -68,12 +68,12 @@ export const router = createBrowserRouter([
             {
                 path: '/dashboard/allBuyers',
                 element: <AllBuyers></AllBuyers>,
-                loader: () => fetch('http://localhost:4000/users')
+                loader: () => fetch('https://b612-used-products-resale-server-side-siam-asrar.vercel.app/users')
             },
             {
                 path: '/dashboard/allSellers',
                 element: <AllSellers></AllSellers>,
-                loader: () => fetch('http://localhost:4000/users')
+                loader: () => fetch('https://b612-used-products-resale-server-side-siam-asrar.vercel.app/users')
             },
             {
                 path: '/dashboard/reportedItems',

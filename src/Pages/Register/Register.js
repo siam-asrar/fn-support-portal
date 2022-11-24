@@ -31,7 +31,7 @@ const Register = () => {
                     email: user?.email
                 }
 
-                fetch('http://localhost:4000/jwt', {
+                fetch('https://b612-used-products-resale-server-side-siam-asrar.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -56,7 +56,7 @@ const Register = () => {
                         role: userType
                     }
 
-                    fetch('http://localhost:4000/users', {
+                    fetch('https://b612-used-products-resale-server-side-siam-asrar.vercel.app/users', {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json'

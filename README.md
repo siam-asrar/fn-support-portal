@@ -1,6 +1,6 @@
-# Live Site Link: 
-# Backend Link:
-# Backend Repo:
+# Live Site Link: https://used-products-resale-26cac.web.app
+# Backend Link: https://b612-used-products-resale-server-side-siam-asrar.vercel.app
+# Backend Repo: https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-siam-asrar
 
 # admin credentials
 ## adminEmail: kakashi@gmail.com

@@ -42,7 +42,7 @@ const AddProduct = () => {
         }
 
         // save phone info to the DB
-        fetch('http://localhost:4000/phones', {
+        fetch('https://b612-used-products-resale-server-side-siam-asrar.vercel.app/phones', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

@@ -29,7 +29,7 @@ const Login = () => {
                         photoURL: user.photoURL,
                         role: "Buyer"
                     }
-                    fetch('http://localhost:4000/users', {
+                    fetch('https://b612-used-products-resale-server-side-siam-asrar.vercel.app/users', {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json'
@@ -46,7 +46,7 @@ const Login = () => {
                     email: user?.email
                 }
 
-                fetch('http://localhost:4000/jwt', {
+                fetch('https://b612-used-products-resale-server-side-siam-asrar.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -80,7 +80,7 @@ const Login = () => {
                     email: user?.email
                 }
 
-                fetch('http://localhost:4000/jwt', {
+                fetch('https://b612-used-products-resale-server-side-siam-asrar.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

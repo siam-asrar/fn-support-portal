@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -12,7 +13,7 @@ const Banner = () => {
                         <span>Plus free shipping! Use code:</span>
                         <span className="font-bold text-lg">Mobi-Cart-50</span>
                     </div>
-                    <a href="#" rel="noreferrer noopener" className="px-5 mt-4 lg:mt-0 py-3 rounded-md border block dark:bg-gray-50 dark:text-gray-900 dark:border-gray-400">Shop Now</a>
+                    <Link to='/' className="btn bg-violet-200 font-extrabold dark:text-gray-900 hover:bg-violet-600 ">Shop Now</Link>
                 </div>
             </div>
         </div>
