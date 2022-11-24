@@ -6,7 +6,6 @@ const MyProduct = ({ myProduct }) => {
     const { model, productPhoto, resalePrice, originalPrice, description } = myProduct;
 
     const navigate = useNavigate();
-
     const [myProducts, setMyProducts] = useState([]);
 
     const handleDelete = id => {
@@ -21,7 +20,7 @@ const MyProduct = ({ myProduct }) => {
                 .then(res => res.json())
                 .then(data => {
                     if (data.deletedCount > 0) {
-                        toast.success('Phone deleted successfully')
+                        toast.success(`${model} deleted successfully`)
                         const remaining = myProducts.filter(myProduct => myProduct._id !== id)
                         setMyProducts(remaining);
                         navigate('/dashboard');
