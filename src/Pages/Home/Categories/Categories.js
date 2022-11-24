@@ -11,7 +11,7 @@ const Categories = () => {
         fetch('http://localhost:4000/categories')
             .then(res => res.json())
             .then(data => setCategories(data))
-    }, [])
+    }, []);
 
     if (loading) {
         return <Loader></Loader>
