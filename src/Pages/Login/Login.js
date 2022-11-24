@@ -22,11 +22,31 @@ const Login = () => {
                 const user = result.user;
                 console.log(user);
 
+                if (user?.email) {
+                    const userProfile = {
+                        name: user.displayName,
+                        email: user.email,
+                        photoURL: user.photoURL,
+                        role: "Buyer"
+                    }
+                    fetch('http://localhost:4000/users', {
+                        method: 'POST',
+                        headers: {
+                            'content-type': 'application/json'
+                        },
+                        body: JSON.stringify(userProfile)
+                    })
+                        .then(res => res.json())
+                        .then(data => {
+                            console.log(data);
+                        })
+                }
+
                 const currentUser = {
                     email: user?.email
                 }
 
-                fetch('https://b6a11-service-review-server-side-siam-asrar.vercel.app/jwt', {
+                fetch('http://localhost:4000/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -36,7 +56,7 @@ const Login = () => {
                     .then(res => res.json())
                     .then(data => {
                         console.log(data);
-                        localStorage.setItem('serviceReview-token', data.token);
+                        localStorage.setItem('accessToken', data.token);
                     });
 
                 navigate('/');
@@ -60,7 +80,7 @@ const Login = () => {
                     email: user?.email
                 }
 
-                fetch('https://b6a11-service-review-server-side-siam-asrar.vercel.app/jwt', {
+                fetch('http://localhost:4000/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -70,7 +90,7 @@ const Login = () => {
                     .then(res => res.json())
                     .then(data => {
                         console.log(data);
-                        localStorage.setItem('serviceReview-token', data.token);
+                        localStorage.setItem('accessToken', data.token);
                     });
 
                 form.reset();

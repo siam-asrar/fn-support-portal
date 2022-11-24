@@ -36,7 +36,7 @@ const AuthProvider = ({ children }) => {
 
     const logOut = () => {
         setLoading(true);
-        localStorage.removeItem('serviceReview-token');
+        localStorage.removeItem('accessToken');
         return signOut(auth);
     }
 

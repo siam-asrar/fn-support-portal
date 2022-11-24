@@ -32,6 +32,7 @@ const Header = () => {
                 </div>
                 <Link to="/" className="btn btn-ghost normal-case text-xl">
                     <img className='h-20 rounded-full pb-5' src={logo} alt="" />
+                    <p className='text-primary pl-5 pb-5'>Mobi-Cart™</p>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -46,6 +47,10 @@ const Header = () => {
                             <Link to='/login'>
                                 <button onClick={handleLogOut} className="btn btn-outline btn-primary mx-6">Sign Out</button>
                             </Link>
+                            <FaUser
+                                className='rounded-full bg-white h-10 w-10'
+                                title={user?.displayName}>
+                            </FaUser>
                         </>
                         :
                         <>
@@ -56,20 +61,6 @@ const Header = () => {
                                 <button className="btn btn-outline btn-success">Sign up</button>
                             </Link>
                         </>
-                }
-                {
-                    user?.photoURL ?
-                        <img
-                            style={{ height: '40px' }}
-                            className="rounded-full"
-                            src={user?.photoURL}
-                            alt={user?.displayName}
-                            title={user?.displayName} /> :
-                        user?.uid &&
-                        <FaUser
-                            className='rounded-full bg-white h-10 w-10'
-                            title={user?.displayName}>
-                        </FaUser>
                 }
             </div>
         </div>

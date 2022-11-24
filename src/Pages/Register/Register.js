@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import useTitle from '../../hooks/useTitle';
 import Loader from '../Shared/Loader/Loader';
@@ -30,7 +31,7 @@ const Register = () => {
                     email: user?.email
                 }
 
-                fetch('https://b6a11-service-review-server-side-siam-asrar.vercel.app/jwt', {
+                fetch('http://localhost:4000/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -40,12 +41,35 @@ const Register = () => {
                     .then(res => res.json())
                     .then(data => {
                         console.log(data);
-                        localStorage.setItem('serviceReview-token', data.token);
+                        localStorage.setItem('accessToken', data.token);
                     });
 
                 setError('');
                 form.reset();
                 handleUpdateUserProfile(name, photoURL);
+
+                if (user?.email) {
+                    const userProfile = {
+                        name,
+                        email,
+                        photoURL,
+                        role: userType
+                    }
+
+                    fetch('http://localhost:4000/users', {
+                        method: 'POST',
+                        headers: {
+                            'content-type': 'application/json'
+                        },
+                        body: JSON.stringify(userProfile)
+                    })
+                        .then(res => res.json())
+                        .then(data => {
+                            toast.success("Successfully Created User")
+                            console.log('saveUser', data);
+                        })
+                }
+
                 navigate('/');
             })
             .catch(e => {
@@ -61,7 +85,9 @@ const Register = () => {
         }
 
         updateUserProfile(profile)
-            .then(() => { })
+            .then(() => {
+
+            })
             .catch(error => console.error(error));
     }
 
@@ -146,9 +172,7 @@ const Register = () => {
                             Sign Up
                         </button>
                     </div>
-
                 </form>
-
                 <p className="mt-8 text-xs font-light text-center text-gray-700">
                     {" "}
                     Already have an account?{" "}

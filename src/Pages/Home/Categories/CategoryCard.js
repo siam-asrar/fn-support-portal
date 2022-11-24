@@ -12,7 +12,7 @@ const CategoryCard = ({ category }) => {
                     <p className="dark:text-gray-100">{about}</p>
                 </div>
                 <Link to={`/categories/${brand}`}>
-                    <button type="button" className="flex items-center justify-center w-1/2 p-3 font-semibold tracking-wide rounded-md dark:bg-violet-400 dark:text-gray-900 mx-auto hover:bg-purple-200">Read more</button>
+                    <button type="button" className="flex items-center justify-center w-1/2 p-3 font-semibold tracking-wide rounded-md dark:bg-violet-400 dark:text-gray-900 mx-auto hover:bg-purple-200">See All</button>
                 </Link>
             </div>
         </div>
