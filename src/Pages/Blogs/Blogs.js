@@ -14,7 +14,7 @@ const Blogs = () => {
                 <div className="grid gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
                     <div>
                         <h3 className="text-secondary font-semibold">Ways to manage a state in a React application?</h3>
-                        <p className="mt-1 dark:text-gray-200">SQL is the programming language used to interface with relational databases. (Relational databases model data as records in rows and tables with logical links between them). NoSQL is a class of DBMs that are non-relational and generally do not use SQL. </p>
+                        <p className="mt-1 dark:text-gray-200">There are four main types of state you need to properly manage in your React apps: Local State, Global State, Server State, URL State </p>
                     </div>
                     <div>
                         <h3 className="text-secondary font-semibold">How does prototypical inheritance work?</h3>
