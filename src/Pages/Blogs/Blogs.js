@@ -5,11 +5,11 @@ const Blogs = () => {
     useTitle('Blogs');
 
     return (
-        <section className="dark:text-gray-100 mb-16 pb-20">
-            <div className="container flex flex-col justify-center mx-auto md:p-7">
+        <section className="dark:text-gray-100 mb-20 pb-16">
+            <div className="container flex flex-col justify-center mx-auto md:p-9">
                 <div className='pb-20'>
                     <h2 className="text-5xl font-bold text-primary pb-2">Blogs</h2>
-                    <p className="pb-7 text-sm font-medium tracking-wider text-center uppercase dark:text-secondary">Assignment-12</p>
+                    <p className="pb-10 text-sm font-medium tracking-wider text-center uppercase dark:text-secondary">Assignment-12</p>
                 </div>
                 <div className="grid gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
                     <div>
@@ -26,7 +26,7 @@ const Blogs = () => {
                     </div>
                     <div>
                         <h3 className="text-secondary font-semibold">React vs. Angular vs. Vue?</h3>
-                        <p className="mt-1 dark:text-gray-200">NodeJS receives multiple client requests and places them into EventQueue. NodeJS is built with the concept of event-driven architecture. NodeJS has its own EventLoop which is an infinite loop that receives requests and processes them.</p>
+                        <p className="mt-1 dark:text-gray-200">React is a UI library, Angular is a fully-fledged front-end framework, while Vue.js is a progressive framework.</p>
                     </div>
                 </div>
             </div>
