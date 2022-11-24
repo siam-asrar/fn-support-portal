@@ -67,11 +67,13 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/dashboard/allBuyers',
-                element: <AllBuyers></AllBuyers>
+                element: <AllBuyers></AllBuyers>,
+                loader: () => fetch('http://localhost:4000/users')
             },
             {
                 path: '/dashboard/allSellers',
-                element: <AllSellers></AllSellers>
+                element: <AllSellers></AllSellers>,
+                loader: () => fetch('http://localhost:4000/users')
             },
             {
                 path: '/dashboard/reportedItems',
