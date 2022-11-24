@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
+import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
+import Loader from '../Shared/Loader/Loader';
 import PhoneCard from './PhoneCard';
 
 const Phones = () => {
     const phones = useLoaderData();
+    const { loading } = useContext(AuthContext);
+
+    if (loading) {
+        return <Loader></Loader>
+    }
 
     return (
         <section className='my-10'>

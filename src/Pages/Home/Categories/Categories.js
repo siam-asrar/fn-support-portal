@@ -1,13 +1,21 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
+import Loader from '../../Shared/Loader/Loader';
 import CategoryCard from './CategoryCard';
 
 const Categories = () => {
+    const { loading } = useContext(AuthContext);
+
     const [categories, setCategories] = useState([]);
     useEffect(() => {
         fetch('http://localhost:4000/categories')
             .then(res => res.json())
             .then(data => setCategories(data))
     }, [])
+
+    if (loading) {
+        return <Loader></Loader>
+    }
 
     return (
         <section className='my-10'>

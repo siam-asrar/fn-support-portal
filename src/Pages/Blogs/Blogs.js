@@ -5,8 +5,8 @@ const Blogs = () => {
     useTitle('Blogs');
 
     return (
-        <section className="dark:text-gray-100 mb-16 pb-6">
-            <div className="container flex flex-col justify-center mx-auto md:p-8">
+        <section className="dark:text-gray-100 mb-16 pb-20">
+            <div className="container flex flex-col justify-center mx-auto md:p-7">
                 <div className='pb-20'>
                     <h2 className="text-5xl font-bold text-primary pb-2">Blogs</h2>
                     <p className="pb-7 text-sm font-medium tracking-wider text-center uppercase dark:text-secondary">Assignment-12</p>
