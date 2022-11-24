@@ -1,0 +1,17 @@
+[
+    {
+        "brand": "Iphone",
+        "img": "https://img.freepik.com/premium-vector/new-iphone-13-iphone-13-pro-mockup-screen_528453-219.jpg?w=2000",
+        "about": "Iphone has a large ecosystem and is very popular."
+    },
+    {
+        "brand": "Samsung",
+        "img": "https://img.freepik.com/premium-vector/incoming-call-screen-template_10606-10.jpg?w=2000",
+        "about": "Samsung has a huge software market."
+    },
+    {
+        "brand": "Huawei",
+        "img": "https://wallpaperaccess.com/full/1345187.png",
+        "about": "Huawei provides budget phones for its customers."
+    }
+]

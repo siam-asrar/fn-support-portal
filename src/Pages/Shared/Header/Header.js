@@ -1,11 +1,19 @@
 import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import logo from '../../../assets/logo.png';
-// import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 import { FaUser } from 'react-icons/fa';
+import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 
 const Header = () => {
+    const { user, logOut } = useContext(AuthContext);
+    const navigate = useNavigate();
 
+    const handleLogOut = () => {
+        logOut()
+            .then()
+            .catch();
+        navigate('/login');
+    }
     const menuItems = <>
         <li className='font-semibold'><Link to='/'>Home</Link></li>
         <li className='font-semibold'><Link to='/blogs'>Blogs</Link></li>
@@ -32,11 +40,37 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-
-                <FaUser
-                    className='rounded-full bg-white h-10 w-10'
-                    title>
-                </FaUser>
+                {
+                    user?.uid ?
+                        <>
+                            <Link to='/login'>
+                                <button onClick={handleLogOut} className="btn btn-outline btn-primary mx-6">Sign Out</button>
+                            </Link>
+                        </>
+                        :
+                        <>
+                            <Link to='/login'>
+                                <button className="btn btn-outline btn-info mx-6">Sign in</button>
+                            </Link>
+                            <Link to='/register'>
+                                <button className="btn btn-outline btn-success">Sign up</button>
+                            </Link>
+                        </>
+                }
+                {
+                    user?.photoURL ?
+                        <img
+                            style={{ height: '40px' }}
+                            className="rounded-full"
+                            src={user?.photoURL}
+                            alt={user?.displayName}
+                            title={user?.displayName} /> :
+                        user?.uid &&
+                        <FaUser
+                            className='rounded-full bg-white h-10 w-10'
+                            title={user?.displayName}>
+                        </FaUser>
+                }
             </div>
         </div>
     );

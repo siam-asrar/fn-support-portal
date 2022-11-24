@@ -1,11 +1,11 @@
 import React from 'react';
-// import useTitle from '../../hooks/useTitle';
+import useTitle from '../../hooks/useTitle';
 
 const Blogs = () => {
-    // useTitle('Blogs');
+    useTitle('Blogs');
 
     return (
-        <section className="dark:text-gray-100 mb-10 pb-6">
+        <section className="dark:text-gray-100 mb-16 pb-6">
             <div className="container flex flex-col justify-center mx-auto md:p-8">
                 <div className='pb-20'>
                     <h2 className="text-5xl font-bold text-primary pb-2">Blogs</h2>
@@ -13,7 +13,7 @@ const Blogs = () => {
                 </div>
                 <div className="grid gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
                     <div>
-                        <h3 className="text-secondary font-semibold">What are the different ways to manage a state in a React application?</h3>
+                        <h3 className="text-secondary font-semibold">Ways to manage a state in a React application?</h3>
                         <p className="mt-1 dark:text-gray-200">SQL is the programming language used to interface with relational databases. (Relational databases model data as records in rows and tables with logical links between them). NoSQL is a class of DBMs that are non-relational and generally do not use SQL. </p>
                     </div>
                     <div>
