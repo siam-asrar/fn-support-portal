@@ -25,7 +25,7 @@ const DashboardLayout = () => {
                         {userType === 'Admin' && <>
                             <li><Link to="/dashboard/allSellers">All Sellers</Link></li>
                             <li><Link to="/dashboard/allBuyers">All Buyers</Link></li>
-                            <li><Link to="/dashboard/allSellers">Reported Items</Link></li>
+                            <li><Link to="/dashboard/reportedItems">Reported Items</Link></li>
                         </>
                         }
                         {userType === 'Buyer' && <>
