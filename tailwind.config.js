@@ -6,7 +6,7 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        resaleProductsTheme: {
+        fnSupportTheme: {
           /* doc: https://daisyui.com/theme-generator/ */
           primary: '#4051b7',
           secondary: '#9906FF',
