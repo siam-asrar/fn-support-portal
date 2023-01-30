@@ -8,11 +8,11 @@ module.exports = {
       {
         resaleProductsTheme: {
           /* doc: https://daisyui.com/theme-generator/ */
-          primary: '#ff2400',
-          secondary: '#7E57C2',
-          accent: "#3A4256",
-          neutral: "#3D4451",
-          "base-100": "#36454f"
+          primary: '#4051b7',
+          secondary: '#9906FF',
+          accent: "#3D4451",
+          neutral: "#000000",
+          "base-100": "#FFFFFF"
         }
       }
     ]
@@ -20,5 +20,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+
+  ],
 }

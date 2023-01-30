@@ -6,7 +6,7 @@ const useType = (email) => {
 
     useEffect(() => {
         if (email) {
-            fetch(`https://b612-used-products-resale-server-side-siam-asrar.vercel.app/users/type/${email}`)
+            fetch(`http://localhost:4000/users/type/${email}`)
                 .then(res => res.json())
                 .then(data => {
                     console.log(data);

@@ -1,0 +1,10 @@
+.banner-img:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 25;
+    width: 50%;
+    height: 27.5%;
+    display: inline-block;
+    background: linear-gradient(to right, #151515 0%, rgba(21, 21, 21, 0) 100%);
+}

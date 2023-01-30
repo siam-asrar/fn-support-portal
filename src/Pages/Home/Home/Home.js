@@ -1,18 +1,20 @@
 import React from 'react';
 import useTitle from '../../../hooks/useTitle';
-import About from '../About/About';
 import Banner from '../Banner/Banner';
-import Categories from '../Categories/Categories';
+import Resources from '../Resources/Resources';
+import About from '../About/About';
+import Additional from '../../Additional/Additional';
 
 const Home = () => {
     useTitle('Home');
 
     return (
-        <div className='mx-10'>
+        <>
             <Banner></Banner>
+            <Resources></Resources>
+            <Additional></Additional>
             <About></About>
-            <Categories></Categories>
-        </div>
+        </>
     );
 };
 

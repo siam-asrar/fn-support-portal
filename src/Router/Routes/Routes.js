@@ -1,19 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import DashboardLayout from "../../Layout/DashboardLayout";
 import Main from "../../Layout/Main";
-import Blogs from "../../Pages/Blogs/Blogs";
-import AddProduct from "../../Pages/Dashboard/AddProduct";
-import AllBuyers from "../../Pages/Dashboard/AllBuyers";
-import AllSellers from "../../Pages/Dashboard/AllSellers";
-import MyOrders from "../../Pages/Dashboard/MyOrders";
-import MyProducts from "../../Pages/Dashboard/MyProducts";
-import ReportedItems from "../../Pages/Dashboard/ReportedItems";
+import Components from "../../Pages/Components/Components";
 import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login";
-import Phones from "../../Pages/Phones/Phones";
 import Register from "../../Pages/Register/Register";
 import Error from "../../Pages/Shared/Error/Error";
 import PrivateRoute from "../PrivateRoute/PrivateRoute"
+import Providers from "../../Pages/Providers/Providers";
 
 export const router = createBrowserRouter([
     {
@@ -30,13 +24,9 @@ export const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/blogs',
-                element: <Blogs></Blogs>
-            },
-            {
-                path: '/categories/:brand',
-                element: <PrivateRoute><Phones></Phones></PrivateRoute>,
-                loader: ({ params }) => fetch(`https://b612-used-products-resale-server-side-siam-asrar.vercel.app/categories/${params.brand}`)
+                path: '/providers/:name',
+                element: <Providers></Providers>,
+                loader: ({ params }) => fetch(`/providers.json`)
             },
             {
                 path: '/login',
@@ -54,30 +44,8 @@ export const router = createBrowserRouter([
         errorElement: <Error></Error>,
         children: [
             {
-                path: '/dashboard/addProduct',
-                element: <AddProduct></AddProduct>
-            },
-            {
-                path: '/dashboard/myProducts',
-                element: <MyProducts></MyProducts>
-            },
-            {
-                path: '/dashboard/myOrders',
-                element: <MyOrders></MyOrders>
-            },
-            {
-                path: '/dashboard/allBuyers',
-                element: <AllBuyers></AllBuyers>,
-                loader: () => fetch('https://b612-used-products-resale-server-side-siam-asrar.vercel.app/users')
-            },
-            {
-                path: '/dashboard/allSellers',
-                element: <AllSellers></AllSellers>,
-                loader: () => fetch('https://b612-used-products-resale-server-side-siam-asrar.vercel.app/users')
-            },
-            {
-                path: '/dashboard/reportedItems',
-                element: <ReportedItems></ReportedItems>
+                path: '/dashboard/components',
+                element: <Components></Components>
             }
         ]
     }

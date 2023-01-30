@@ -1,22 +1,28 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
+import './Banner.css';
 
 const Banner = () => {
+
+    const { user } = useContext(AuthContext);
+    const userFirstName = user?.displayName.split(' ').slice(0, 1);
+
     return (
-        <div className="p-6 py-12 dark:bg-violet-400 dark:text-gray-900 mt-12">
-            <div className="container mx-auto">
-                <div className="flex flex-col lg:flex-row items-center justify-between">
-                    <h2 className="text-center text-6xl tracking-tighter font-bold">Up to
-                        <br />50% Off
-                    </h2>
-                    <div className="space-x-2 text-center py-2 lg:py-0">
-                        <span>Plus free shipping! Use code:</span>
-                        <span className="font-bold text-lg">Mobi-Cart-50</span>
+        <div className='flex justify-center'>
+            <div className="About-img hero border" style={{ backgroundImage: `url("https://fieldnation.com/wp-content/uploads/2022/07/field-ready-support.jpg")` }}>
+                <div className="hero-overlay bg-opacity-60">
+                </div>
+                <div className="hero-content text-center text-neutral-content block">
+                    <div className="max-w-md text-white">
+                        <h1 className="mb-5 text-5xl font-bold">Hello there, <br /> {user ? userFirstName : ''}</h1>
+                        <p className="my-5">Field Nation is the world’s most active Field Service Marketplace and software solution that connects companies and service professionals to get work done.</p>
+                        <a href="https://app.fieldnation.com/signup" target="_blank rel=noreferrer">
+                            <button className="btn btn-primary btn-wide">Sign Up</button>
+                        </a>
                     </div>
-                    <Link to='/' className="btn bg-violet-200 font-extrabold dark:text-gray-900 hover:bg-violet-600 ">Shop Now</Link>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

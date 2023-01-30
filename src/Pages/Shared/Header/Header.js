@@ -1,11 +1,13 @@
-import React, { useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useContext, useState } from 'react';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import logo from '../../../assets/logo.png';
-import { FaUser } from 'react-icons/fa';
+import { FaUser, FaSignOutAlt, FaPowerOff } from 'react-icons/fa';
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
+    const [hidden, setHidden] = useState('hidden');
+    const [searched, setSearched] = useState(false);
     const navigate = useNavigate();
 
     const handleLogOut = () => {
@@ -15,64 +17,116 @@ const Header = () => {
         navigate('/login');
     }
     const menuItems = <>
-        <li className='font-semibold'><Link to='/'>Home</Link></li>
-        <li className='font-semibold'><Link to='/blogs'>Blogs</Link></li>
+        <li className='font-semibold'><NavLink to={`/`} style={({ isActive }) => {
+            return {
+                backgroundColor: isActive ? 'inherit' : '',
+                borderRadius: '0',
+                color: isActive ? 'blue' : 'inherit',
+            };
+        }}>
+            Home
+        </NavLink></li>
         {
-            user?.email &&
-            <>
-                <li className='font-semibold'><Link to='/dashboard'>Dashboard</Link></li>
-            </>
+            user?.email ?
+                <li className='font-semibold'><NavLink to={`/dashboard/components`} style={({ isActive }) => {
+                    return {
+                        backgroundColor: isActive ? 'inherit' : '',
+                        borderRadius: '0',
+                        color: isActive ? 'blue' : 'inherit',
+                    };
+                }}>
+                    Dashboard
+                </NavLink></li>
+                :
+                <li className='font-semibold m-auto'><a href="https://fieldnation.com/how-it-works-for-businesses" target="_blank rel=noreferrer">Get a demo</a></li>
         }
     </>
 
     return (
-        <div className="navbar h-20 pt-12 py-12 bg-gray-800">
-            <div className="navbar-start">
-                <div className="dropdown">
-                    <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+        <div className="grid grid-flow-col items-center pb-1 content-center bg-orange-500 text-white px-2 max-h-9">
+            <div className='flex justify-start items-center'>
+                <Link to="/" className="btn btn-ghost normal-case text-xl">
+                    <img className='h-5' src={logo} alt="" />
+                </Link>
+                <div className="hidden lg:flex justify-center items-center">
+                    <ul className="menu menu-horizontal text-white">
                         {menuItems}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-xl">
-                    <img className='h-20 rounded-full pb-5' src={logo} alt="" />
-                    <p className='text-primary pl-5 pb-5'>Mobi-Cart™</p>
-                </Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal p-0">
+            {
+                !window.location.href.includes('/dashboard') &&
+                <div className="relative flex justify-center">
+                    {
+                        !searched ?
+                            <>
+                                <button onClick={setHidden} type="submit" className="focus:outline-none focus:ring">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-4 fill-current dark:text-white">
+                                        <path d="M479.6,399.716l-81.084-81.084-62.368-25.767A175.014,175.014,0,0,0,368,192c0-97.047-78.953-176-176-176S16,94.953,16,192,94.953,368,192,368a175.034,175.034,0,0,0,101.619-32.377l25.7,62.2L400.4,478.911a56,56,0,1,0,79.2-79.195ZM48,192c0-79.4,64.6-144,144-144s144,64.6,144,144S271.4,336,192,336,48,271.4,48,192ZM456.971,456.284a24.028,24.028,0,0,1-33.942,0l-76.572-76.572-23.894-57.835L380.4,345.771l76.573,76.572A24.028,24.028,0,0,1,456.971,456.284Z"></path>
+                                    </svg>
+                                </button>
+                                <form className={hidden}>
+                                    <input type="search" name="search" placeholder="Search keywords or topics" className="w-full h-6 py-3 pl-12 text-sm rounded-full sm:w-96 focus:outline-none dark:bg-gray-200 dark:text-gray-900 focus:dark:bg-blue-100" />
+                                </form>
+                            </>
+                            :
+                            <form onSubmit={() => setSearched(false)}>
+                                <span>Showing  results for search</span>
+                                <br />
+                                <button type="submit">X</button>
+                            </form>
+                    }
+                </div>
+            }
+            <div className="dropdown">
+                <label tabIndex={0} className="btn btn-link bold text-white hover:text-orange-200 lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabIndex={0} className="menu menu-compact dropdown-content mt-2 p-2 shadow text-gray-900 bg-white w-52">
                     {menuItems}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <label htmlFor="dashboard-drawer" tabIndex={2} className="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            {
+                window.location.href.includes('/dashboard') &&
+                <label htmlFor="dashboard-drawer" tabIndex={2} className="text-white mx-3 hover:text-orange-200 hover:text-lg lg:hidden">
+                    <FaPowerOff></FaPowerOff>
                 </label>
+            }
+            <div className='flex justify-end items-center'>
                 {
                     user?.uid ?
-                        <>
-                            <Link to='/login'>
-                                <button onClick={handleLogOut} className="btn btn-outline btn-primary mx-6">Sign Out</button>
-                            </Link>
-                            <FaUser
-                                className='rounded-full bg-white h-10 w-10'
-                                title={user?.displayName}>
-                            </FaUser>
-                        </>
+                        <label tabIndex={3}>
+                            {
+                                user?.photoURL ?
+                                    <img
+                                        style={{ height: '30px' }}
+                                        className="rounded-full"
+                                        src={user?.photoURL}
+                                        alt={user?.displayName}
+                                        title={user?.displayName} /> :
+                                    user?.uid &&
+                                    <FaUser
+                                        className='rounded-full bg-white h-5 w-5'
+                                        title={user?.displayName}>
+                                    </FaUser>
+                            }
+                        </label>
                         :
                         <>
                             <Link to='/login'>
-                                <button className="btn btn-outline btn-info mx-6">Sign in</button>
+                                <button className="btn btn-ghost btn-sm mx-6 text-primary">Sign in</button>
                             </Link>
                             <Link to='/register'>
-                                <button className="btn btn-outline btn-success">Sign up</button>
+                                <button className="btn btn-ghost btn-sm mx-6 text-secondary">Sign up</button>
                             </Link>
                         </>
+
                 }
+                <Link to='/login' onClick={handleLogOut} className='font-semibold rounded-full h-5 w-5 hover:text-orange:400 mt-1 ml-3'>
+                    <FaSignOutAlt></FaSignOutAlt>
+                </Link>
             </div>
-        </div>
+        </div >
     );
 };
 
