@@ -30,11 +30,11 @@ const Providers = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className='dark:bg-light border shadow-lg mb-5 p-5'>
+            <div className='light:bg-light dark:bg-dark border shadow-lg mb-5 p-5'>
                 <h1 className="text-2xl font-light leading-none text-start sm:text-4xl">Provider Resources</h1>
             </div>
             <div className='shadow-lg border'>
-                <ul className='menu menu-horizontal dark:bg-light flex justify-start m-5 p-5 divide divide-gray-400'>
+                <ul className='menu menu-horizontal light:bg-light dark:bg-dark flex justify-start m-5 p-5 divide divide-gray-400'>
                     {
                         menuItems.map(menuItem =>
                             <li className="border border-gray-400 font-semibold text-gray-500 hover:text-primary hover:bg-gray-200" key={menuItem.id}>
@@ -51,7 +51,7 @@ const Providers = () => {
                         )
                     }
                 </ul>
-                <ul className='dark:bg-light block divide divide-gray-200 text-start mt-5'>
+                <ul className='light:bg-light dark:bg-dark block divide divide-gray-200 text-start mt-5'>
                     {
                         selected.map(selects =>
                             <li className="font-semibold text-gray-500 hover:text-primary hover:bg-gray-200 border-x border-t border-gray-200 p-5">

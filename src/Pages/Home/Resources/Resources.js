@@ -11,7 +11,7 @@ const User = () => {
             <div className='dark:bg-blend-lighten'>
                 <h1 className="text-sm font-extralight leading-none text-center sm:text-4xl">Resources</h1>
                 <div className='lg:flex lg:my-2 lg:justify-center md:block md:p-6'>
-                    <div className="card lg:w-72 lg:h-36 md:w-full border rounded-none border-t-indigo-700 border-t-2 bg-base-100 shadow-xl items-center text-center pb-5 lg:mx-2 mx-auto mb-5">
+                    <div className="card lg:w-72 lg:h-36 md:w-full border rounded-none border-t-indigo-700 border-t-2 dark:bg-dark shadow-xl items-center text-center pb-5 lg:mx-2 mx-auto mb-5">
                         <figure className="p-5">
                             <img src={providers} alt="" className="rounded" style={{ height: '25px' }} />
                         </figure>
@@ -20,7 +20,7 @@ const User = () => {
                         </Link>
                         <small>I am a technician who is performing work at Field Nation.</small>
                     </div>
-                    <div className="card lg:w-72 lg:h-36 md:w-full border rounded-none border-t-indigo-700 border-t-2 bg-base-100 shadow-xl  items-center text-center pb-5 lg:mx-2 mx-auto mb-5">
+                    <div className="card lg:w-72 lg:h-36 md:w-full border rounded-none border-t-indigo-700 border-t-2 dark:bg-dark shadow-xl  items-center text-center pb-5 lg:mx-2 mx-auto mb-5">
                         <figure className="p-5">
                             <img src={service_companies} alt="" className="rounded" style={{ height: '25px' }} />
                         </figure>
@@ -29,7 +29,7 @@ const User = () => {
                         </Link>
                         <small>A group of technicians performing work on Field Nation.</small>
                     </div>
-                    <div className="card lg:w-72 lg:h-36 md:w-full border rounded-none border-t-indigo-700 border-t-2 bg-base-100 shadow-xl  items-center text-center pb-5 lg:mx-2 mx-auto mb-5">
+                    <div className="card lg:w-72 lg:h-36 md:w-full border rounded-none border-t-indigo-700 border-t-2 dark:bg-dark shadow-xl  items-center text-center pb-5 lg:mx-2 mx-auto mb-5">
                         <figure className="p-5">
                             <img src={buyers} alt="" className="rounded" style={{ height: '25px' }} />
                         </figure>

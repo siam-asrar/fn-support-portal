@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -6,7 +7,7 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        fnSupportTheme: {
+        light: {
           /* doc: https://daisyui.com/theme-generator/ */
           primary: '#4051b7',
           secondary: '#9906FF',
@@ -22,6 +23,5 @@ module.exports = {
   },
   plugins: [
     require("daisyui"),
-
   ],
 }

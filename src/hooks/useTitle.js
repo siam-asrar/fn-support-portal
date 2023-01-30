@@ -4,7 +4,7 @@ import { useEffect } from "react"
 
 const useTitle = title => {
     useEffect(() => {
-        document.title = `${title}:: Field Nation Feature Review`;
+        document.title = `${title}:: Field Nation Support`;
     }, [title])
 };
 
