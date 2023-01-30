@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { toast } from 'react-toastify';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import useTitle from '../../hooks/useTitle';
 import Loader from '../Shared/Loader/Loader';
@@ -65,7 +64,6 @@ const Register = () => {
                     })
                         .then(res => res.json())
                         .then(data => {
-                            toast.success("Successfully Created User")
                             console.log('saveUser', data);
                         })
                 }
