@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
             {
                 path: '/providers/:name',
                 element: <Providers></Providers>,
-                loader: ({ params }) => fetch(`/providers.json`)
+                loader: () => fetch(`/providers.json`)
             },
             {
                 path: '/login',
