@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import { NavLink, useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
-import Additional from '../Additional/Additional';
+import Additional from '../Home/Banner/Additional/Additional';
 import About from '../Home/About/About';
 import Banner from '../Home/Banner/Banner';
-import Resources from '../Home/Resources/Resources';
+import Resources from '../Home/Resources/Resources/Resources';
 import Loader from '../Shared/Loader/Loader';
 
 const Providers = () => {

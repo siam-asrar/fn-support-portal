@@ -3,8 +3,8 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 import logo from '../../../assets/logo.png';
 import { FaUser, FaSignOutAlt, FaPowerOff } from 'react-icons/fa';
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
-import { CssBaseline, Switch, ThemeProvider } from '@mui/material';
-import { theme, theme2 } from '../../..//theme/theme';
+import { CssBaseline, ThemeProvider, Switch } from '@mui/material';
+import { dark, light } from '../../../theme/theme';
 
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
@@ -45,10 +45,10 @@ const Header = () => {
     </>
 
     return (
-        <ThemeProvider theme={darkMode ? theme2 : theme}>
-            <div className="grid grid-flow-col items-center pb-1 content-center bg-orange-500 text-white px-2 max-h-9">
+        <ThemeProvider theme={darkMode ? dark : light}>
+            <div className="grid grid-flow-col items-center content-center bg-orange-500 text-white px-2 max-h-8">
                 <div className='flex justify-start items-center'>
-                    <Switch onClick={() => setDarkMode(!darkMode)} title={`Dark Mode: ${darkMode ? 'On' : 'Off'}`} />
+                    <Switch size='small' color='default' onClick={() => setDarkMode(!darkMode)} title={`Dark Mode: ${darkMode ? 'On' : 'Off'}`} />
                     <Link to="/" className="btn btn-ghost normal-case text-xl">
                         <img className='h-5' src={logo} alt="" />
                     </Link>
@@ -96,14 +96,14 @@ const Header = () => {
                         <FaPowerOff></FaPowerOff>
                     </label>
                 }
-                <div className='flex justify-end items-center'>
+                <div className='flex justify-end items-center text-center'>
                     {
                         user?.uid ?
-                            <label tabIndex={3}>
+                            <label tabIndex={3} className='mb-1'>
                                 {
                                     user?.photoURL ?
                                         <img
-                                            style={{ height: '30px' }}
+                                            style={{ height: '25px' }}
                                             className="rounded-full"
                                             src={user?.photoURL}
                                             alt={user?.displayName}
@@ -126,7 +126,7 @@ const Header = () => {
                             </>
 
                     }
-                    <Link to='/login' onClick={handleLogOut} className='font-semibold rounded-full h-5 w-5 hover:text-orange:400 mt-1 ml-3'>
+                    <Link to='/login' onClick={handleLogOut} className='font-semibold rounded-full h-5 w-5 hover:text-orange:400 ml-3'>
                         <FaSignOutAlt></FaSignOutAlt>
                     </Link>
                 </div>

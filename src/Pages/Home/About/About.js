@@ -2,9 +2,9 @@ import React from 'react';
 const About = () => {
 
     return (
-        <div className='flex justify-center mt-3'>
+        <div className='flex justify-center'>
             <div className="About-img hero w-full" style={{ backgroundImage: `url("https://fieldnation.com/wp-content/uploads/2022/12/orange-hex.png")` }}>
-                <div className="hero-overlay bg-opacity-50"></div>
+                <div className="hero-overlay bg-opacity-75"></div>
                 <div className='grid lg:grid-cols-3 md:grid-cols-1 gap-6 p-6 mt-5'>
                     <div className="card lg:w-72 lg:h-fit md:w-full text-white py-2 items-center text-center pb-5 mx-5">
                         <small className="card-title pb-5">LEARN MORE
