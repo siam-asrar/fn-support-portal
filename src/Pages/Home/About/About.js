@@ -2,7 +2,7 @@ import React from 'react';
 const About = () => {
 
     return (
-        <div className='flex justify-center'>
+        <div className='flex justify-center border'>
             <div className="About-img hero w-full" style={{ backgroundImage: `url("https://fieldnation.com/wp-content/uploads/2022/12/orange-hex.png")` }}>
                 <div className="hero-overlay bg-opacity-75"></div>
                 <div className='grid lg:grid-cols-3 md:grid-cols-1 gap-6 p-6 mt-5'>

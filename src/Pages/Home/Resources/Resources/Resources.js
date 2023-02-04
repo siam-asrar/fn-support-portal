@@ -7,11 +7,11 @@ import Case from '../Case/Case';
 
 const User = () => {
     return (
-        <div className='dark:bg-blend-hue border shadow-lg pt-5 mx-auto my-5'>
-            <div className='dark:bg-blend-lighten'>
+        <div className='bg-blend-hue border border-t-2 shadow-lg pt-5 mx-auto my-5'>
+            <div className='bg-blend-lighten'>
                 <h1 className="font-extralight leading-none text-center sm:text-4xl">Resources</h1>
                 <div className='lg:flex lg:justify-center md:block md:px-10'>
-                    <div className="lg:w-64 px-2 lg:h-32 md:w-full md:mx-auto md:my-5 md:py-3 border rounded-none border-t-indigo-700 border-t-2 dark:bg-dark shadow-xl lg:mx-2">
+                    <div className="lg:w-64 px-2 lg:h-32 md:w-full md:mx-auto md:my-5 md:py-3 border rounded-none border-t-indigo-700 border-t-2 shadow-xl lg:mx-2">
                         <figure>
                             <img src={providers} alt="" className="rounded mx-auto" style={{ height: '25px' }} />
                         </figure>
@@ -21,7 +21,7 @@ const User = () => {
                         <br />
                         <i className='text-sm font-serif'><small>I am a technician who is performing work at Field Nation.</small></i>
                     </div>
-                    <div className="lg:w-64 px-2 lg:h-32 md:w-full md:mx-auto md:my-5 md:py-3 border rounded-none border-t-indigo-700 border-t-2 dark:bg-dark shadow-xl lg:mx-2">
+                    <div className="lg:w-64 px-2 lg:h-32 md:w-full md:mx-auto md:my-5 md:py-3 border rounded-none border-t-indigo-700 border-t-2 shadow-xl lg:mx-2">
                         <figure>
                             <img src={service_companies} alt="" className="rounded mx-auto" style={{ height: '25px' }} />
                         </figure>
@@ -31,7 +31,7 @@ const User = () => {
                         <br />
                         <i className='text-sm font-serif'><small>A group of technicians performing work on Field Nation.</small></i>
                     </div>
-                    <div className="lg:w-64 px-2 lg:h-32 md:w-full md:mx-auto md:my-5 md:py-3 border rounded-none border-t-indigo-700 border-t-2 dark:bg-dark shadow-xl lg:mx-2">
+                    <div className="lg:w-64 px-2 lg:h-32 md:w-full md:mx-auto md:my-5 md:py-3 border rounded-none border-t-indigo-700 border-t-2 shadow-xl lg:mx-2">
                         <figure>
                             <img src={buyers} alt="" className="rounded mx-auto" style={{ height: '25px' }} />
                         </figure>

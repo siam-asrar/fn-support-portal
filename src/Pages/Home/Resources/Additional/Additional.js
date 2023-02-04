@@ -5,7 +5,7 @@ import blog from '../../../../assets/icons/blog.png';
 
 const Additional = () => {
     return (
-        <div className='dark:bg-blend-lighten border shadow-2xl mx-auto py-2'>
+        <div className='dark:bg-blend-lighten border border-t-2  shadow-2xl mx-auto py-2'>
             <h1 className="text-sm font-extralight leading-none sm:text-4xl pt-5">Additional Resources</h1>
             <div className='lg:flex lg:justify-center md:block md:p-6'>
                 <div className="lg:w-64 rounded-none lg:h-24 md:w-full border border-t-indigo-700 border-t-2 dark:bg-dark shadow-xl lg:mx-2 mx-auto">
