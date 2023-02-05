@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const Components = () => {
     const [components, setComponents] = useState([]);
     const [searched, setSearched] = useState(false);
+    const [hidden, setHidden] = useState(true);
     const [searchCriteria, setSearchCriteria] = useState('');
 
     const handleSubmit = (event) => {
@@ -24,7 +25,8 @@ const Components = () => {
             setComponents(results);
             setSearched(true);
         } else {
-            setSearched(false);
+            setComponents([]);
+            setSearched(true);
         }
     }
 
@@ -35,24 +37,34 @@ const Components = () => {
     }, []);
 
     return (
-        <section className="dark:bg-blend-soft-light dark:text-gray-800 min-h-screen">
+        <section className="bg-blend-soft-light min-h-screen">
             <div className="container flex flex-col items-center p-4 mx-auto md:p-8">
-                <h1 className="text-3xl font-bold leading-none text-center sm:text-4xl">Components</h1>
-                <div className="mt-6">
+                <h1 className="text-2xl font-serif leading-none text-center">Components</h1>
+                <div className="mt-6 relative flex justify-center">
                     {
                         !searched ?
-                            <span className="inset-y-0 flex items-center pl-2 mx-auto">
-                                <button type="submit" title="Search" className="p-1 focus:outline-none focus:ring">
-                                    <svg fill="currentColor" viewBox="0 0 512 512" className="w-4 h-4 dark:text-gray-900">
-                                        <path d="M479.6,399.716l-81.084-81.084-62.368-25.767A175.014,175.014,0,0,0,368,192c0-97.047-78.953-176-176-176S16,94.953,16,192,94.953,368,192,368a175.034,175.034,0,0,0,101.619-32.377l25.7,62.2L400.4,478.911a56,56,0,1,0,79.2-79.195ZM48,192c0-79.4,64.6-144,144-144s144,64.6,144,144S271.4,336,192,336,48,271.4,48,192ZM456.971,456.284a24.028,24.028,0,0,1-33.942,0l-76.572-76.572-23.894-57.835L380.4,345.771l76.573,76.572A24.028,24.028,0,0,1,456.971,456.284Z"></path>
-                                    </svg>
-                                </button>
-                                <form onSubmit={handleSubmit}>
-                                    <input type="search" name="search" placeholder="Search Components..." className="w-full py-3 pl-5 text-sm rounded-full sm:w-96 focus:outline-none dark:bg-gray-200 dark:text-gray-900 focus:dark:bg-blue-100" />
+                            <>
+                                <form className={`${hidden ? 'hidden' : ''} flex items-center`} onSubmit={handleSubmit}>
+                                    <input type="search" name="search" placeholder="Search keywords or topics" className="w-full h-8 m-2 px-5 text-sm rounded sm:w-96 focus:outline-none dark:bg-gray-200 dark:text-gray-900 focus:dark:bg-blue-100"
+                                    />
+                                    <button type="submit" className='absolute px-3'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-3 fill-gray-500">
+                                            <path d="M479.6,399.716l-81.084-81.084-62.368-25.767A175.014,175.014,0,0,0,368,192c0-97.047-78.953-176-176-176S16,94.953,16,192,94.953,368,192,368a175.034,175.034,0,0,0,101.619-32.377l25.7,62.2L400.4,478.911a56,56,0,1,0,79.2-79.195ZM48,192c0-79.4,64.6-144,144-144s144,64.6,144,144S271.4,336,192,336,48,271.4,48,192ZM456.971,456.284a24.028,24.028,0,0,1-33.942,0l-76.572-76.572-23.894-57.835L380.4,345.771l76.573,76.572A24.028,24.028,0,0,1,456.971,456.284Z"></path>
+                                        </svg>
+                                    </button>
                                 </form>
-                            </span>
+                                <button onClick={() => setHidden(!hidden)} type="submit" className="focus:outline-none">
+                                    {hidden ?
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 fill-current  hover:text-primary">
+                                            <path d="M479.6,399.716l-81.084-81.084-62.368-25.767A175.014,175.014,0,0,0,368,192c0-97.047-78.953-176-176-176S16,94.953,16,192,94.953,368,192,368a175.034,175.034,0,0,0,101.619-32.377l25.7,62.2L400.4,478.911a56,56,0,1,0,79.2-79.195ZM48,192c0-79.4,64.6-144,144-144s144,64.6,144,144S271.4,336,192,336,48,271.4,48,192ZM456.971,456.284a24.028,24.028,0,0,1-33.942,0l-76.572-76.572-23.894-57.835L380.4,345.771l76.573,76.572A24.028,24.028,0,0,1,456.971,456.284Z"></path>
+                                        </svg>
+                                        :
+                                        <p className='w-4 fill-current hover:text-primary'>X</p>
+                                    }
+                                </button>
+                            </>
                             :
-                            <form onSubmit={!searched}>
+                            <form onSubmit={() => setComponents(components)}>
                                 {!components ?
                                     <small className='font-bold'>Filtering No items found by Search: {searchCriteria}
                                         <br /><button type="submit" title='Reset Filter' className='text-primary hover:text-lg'><FaRegTrashAlt></FaRegTrashAlt></button>
@@ -76,9 +88,8 @@ const Components = () => {
                         )
                     }
                 </ul>
-
             </div>
-        </section >
+        </section>
     );
 };
 

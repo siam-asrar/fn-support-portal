@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "getting-started",
+        "items": [
+            {
+                "name": "Screenings FAQ",
+                "details": "helaj aij iaj lai ilajifjila"
+            },
+            {
+                "name": "Requesting Work as a Service Provider",
+                "details": "helaj aij iaj lai ilajifjila"
+            },
+            {
+                "name": "Field Nation Provider Service Fees",
+                "details": "helaj aij iaj lai ilajifjila"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "using-field-nation",
+        "items": [
+            {
+                "name": "Noti",
+                "details": "helaj aij iaj lai ilajifjila"
+            },
+            {
+                "name": "Boti",
+                "details": "helaj aij iaj lai ilajifjila"
+            },
+            {
+                "name": "Loti",
+                "details": "helaj aij iaj lai ilajifjila"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "how-to-videos",
+        "items": [
+            {
+                "name": "Screenings FAQ",
+                "details": "helaj aij iaj lai ilajifjila"
+            },
+            {
+                "name": "Requesting Work as a Service Provider",
+                "details": "helaj aij iaj lai ilajifjila"
+            },
+            {
+                "name": "Field Nation Provider Service Fees",
+                "details": "helaj aij iaj lai ilajifjila"
+            }
+        ]
+    }
+]

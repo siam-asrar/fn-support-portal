@@ -10,7 +10,7 @@ module.exports = {
         light: {
           /* doc: https://daisyui.com/theme-generator/ */
           primary: '#4051b7',
-          secondary: '#9906FF',
+          secondary: '#4051FF',
           accent: "#3D4451",
           neutral: "#000000",
           "base-100": "#FFFFFF"

@@ -6,8 +6,9 @@ import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login";
 import Register from "../../Pages/Register/Register";
 import Error from "../../Pages/Shared/Error/Error";
-import PrivateRoute from "../PrivateRoute/PrivateRoute"
-import Providers from "../../Pages/Providers/Providers";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import Articles from "../../Pages/Articles/Articles";
+import UserType from "../../Pages/MenuType/MenuType";
 
 export const router = createBrowserRouter([
     {
@@ -24,8 +25,13 @@ export const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/providers/:name',
-                element: <Providers></Providers>,
+                path: '/articles/:name',
+                element: <Articles></Articles>,
+                loader: () => fetch(`/articles.json`)
+            },
+            {
+                path: '/:useType/:name',
+                element: <UserType></UserType>,
                 loader: () => fetch(`/providers.json`)
             },
             {
