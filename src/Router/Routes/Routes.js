@@ -9,6 +9,7 @@ import Error from "../../Pages/Shared/Error/Error";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import Articles from "../../Pages/Articles/Articles";
 import UserType from "../../Pages/MenuType/MenuType";
+import ComponentCard from "../../Pages/ComponentCard/ComponentCard";
 
 export const router = createBrowserRouter([
     {
@@ -52,6 +53,10 @@ export const router = createBrowserRouter([
             {
                 path: '/dashboard/components',
                 element: <Components></Components>
+            },
+            {
+                path: '/dashboard/component/:name',
+                element: <ComponentCard></ComponentCard>
             }
         ]
     }
