@@ -34,12 +34,12 @@ const Header = () => {
 
         const form = event.target;
         const search = form.search.value;
-
         if (!search.length) {
             return;
         } else {
             navigate(`/articles/${search}`);
         }
+        form.reset();
     }
 
     const menuItems = <>
@@ -117,7 +117,7 @@ const Header = () => {
                 </div>
                 {
                     window.location.href.includes('/dashboard') &&
-                    <label htmlFor="dashboard-drawer" tabIndex={2} className="text-white mx-3 hover:text-primary hover:text-lg lg:hidden">
+                    <label htmlFor="dashboard-drawer" tabIndex={2} className="text-white mx-3 hover:text-secondary  lg:hidden">
                         <FaPowerOff></FaPowerOff>
                     </label>
                 }

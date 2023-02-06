@@ -81,7 +81,7 @@ const Components = () => {
                     {
                         components.map(component =>
                             <Link to={`/dashboard/component/${component.name}`}>
-                                <li className="dark:bg-blend-hue flex items-center justify-around p-4 sm:py-8 lg:py-12 border-2 border-t-blue-800 rounded-md text-orange-500 font-semibold border-gray-100 w-72 h-40  shadow-lg hover:bg-blue-100" title={component.about} >
+                                <li className="dark:bg-blend-hue flex items-center justify-around p-4 sm:py-8 lg:py-12 border-2 border-t-blue-800 rounded-md text-secondary font-semibold border-gray-100 w-72 h-40  shadow-lg hover:bg-blue-100" title={component.about} >
                                     <small>{component.name}</small>
                                 </li>
                             </Link>
