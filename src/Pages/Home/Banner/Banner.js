@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <div className='flex justify-center'>
             <div className="hero border shadow-xl" style={{ backgroundImage: `url("https://fieldnation.com/wp-content/uploads/2022/07/field-ready-support.jpg")` }}>
-                <div className="hero-overlay bg-opacity-50">
+                <div className="hero-overlay bg-opacity-70">
                 </div>
                 <div className="hero-content text-center text-neutral-content block">
                     <div className="max-w-md text-white">

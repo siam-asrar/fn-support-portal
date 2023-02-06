@@ -7,7 +7,8 @@ import Case from '../Case/Case';
 import Additional from '../Additional/Additional';
 
 const User = () => {
-    const homePage = !(window.location.href.includes('providers') || window.location.href.includes('service_companies') || window.location.href.includes('buyers'));
+    const homePage = !(window.location.href.includes('providers') || window.location.href.includes('service_companies') || window.location.href.includes('buyers') || window.location.href.includes('articles'));
+
     const menuItems = [
         { id: 1, label: 'Providers', name: 'providers', desc: 'I am a technician who is performing work at Field Nation.', img: providers },
         { id: 2, label: 'Service Companies', name: 'service_companies', desc: 'A group of technicians performing work on Field Nation.', img: service_companies },

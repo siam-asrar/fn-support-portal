@@ -28,7 +28,7 @@ const Case = () => {
                     </figure>
                     <div className='mx-auto'>
                         <small><p className="px-6 my-2">Phone support  <br />available 24/7 <br /> for new and existing  <br />users.</p></small>
-                        <a href="tel:+18775734353" rel="noopener" className='text-sm px-6 text-primary font-semibold'>1-877-573-4353 ext.1</a>
+                        <a href="tel:+18775734353" rel="noopener" className='text-sm px-6 text-primary font-semibold hover:text-secondary'>1-877-573-4353 ext.1</a>
                     </div>
                 </div>
             </div>

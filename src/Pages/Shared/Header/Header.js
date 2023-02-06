@@ -33,12 +33,12 @@ const Header = () => {
         event.preventDefault();
 
         const form = event.target;
-        const criteria = form.search.value;
+        const search = form.search.value;
 
-        if (!criteria.length) {
+        if (!search.length) {
             return;
         } else {
-            navigate(`/articles/${criteria}`);
+            navigate(`/articles/${search}`);
         }
     }
 
@@ -68,7 +68,7 @@ const Header = () => {
 
     return (
         <ThemeProvider theme={mode ? dark : light}>
-            <div className="grid grid-flow-col items-center content-center bg-orange-500 text-white px-2 max-h-6">
+            <div className="grid grid-flow-col items-center content-center bg-orange-500 text-white px-2 max-h-7">
                 <div className='flex justify-start items-center'>
                     <Switch size='small' color='default' onClick={handleDarkMode} title={`Dark Mode: ${mode ? 'On' : 'Off'}`} checked={mode ? true : false} />
                     <Link to="/" className="btn btn-ghost normal-case text-xl">
@@ -128,7 +128,7 @@ const Header = () => {
                                 {
                                     user?.photoURL ?
                                         <img
-                                            style={{ height: '20px' }}
+                                            style={{ height: '24px' }}
                                             className="rounded-full"
                                             src={user?.photoURL}
                                             alt={user?.displayName}
@@ -149,9 +149,8 @@ const Header = () => {
                                     <button className="btn btn-ghost btn-sm mx-6 text-secondary">Sign up</button>
                                 </Link>
                             </>
-
                     }
-                    <Link to='/login' onClick={handleLogOut} className='font-semibold hover:text-primary rounded-full h-5 w-5 ml-3'>
+                    <Link to='/login' onClick={handleLogOut} title='Log Out' className='font-semibold hover:text-primary rounded-full h-5 w-5 ml-3'>
                         <FaSignOutAlt></FaSignOutAlt>
                     </Link>
                 </div>
