@@ -32,12 +32,14 @@ const MenuType = () => {
         { id: 8, userType: ['buyers', 'providers', 'service_companies'], label: 'How To Videos', name: 'how-to-videos' },
     ]
 
-    const displayAbleMenus = menuItems.filter(menuItem => menuItem.userType.includes(userType));
-    const dropdownMenus = dropdownItem.filter(menuItem => menuItem.userType.includes(userType));
+    const menus = menuItems.filter(menuItem => menuItem.userType.includes(userType));
+    const dropdownItems = dropdownItem.filter(menuItem => menuItem.userType.includes(userType));
+    const menu = menus.find(displayAbleMenu => displayAbleMenu.name.includes(url));
+    const dropdown = dropdownItems.find(dropdownMenu => dropdownMenu.name.includes(url));
 
     const handleSubmit = () => {
-        const results = dropdownMenus.find(dropdownMenu => dropdownMenu.name.includes(url)).label;
-        setDropDownUrl(results);
+        setDropDownUrl(dropdown);
+        return dropDownUrl;
     }
 
     if (loading) {
@@ -53,7 +55,7 @@ const MenuType = () => {
             <div className='border'>
                 <ul className='bg-blend-lighten flex justify-start m-5 px-5 py-1 w-full'>
                     {
-                        displayAbleMenus.map(displayAbleMenu =>
+                        menus.map(displayAbleMenu =>
                             <li className="font-sans hover:text-primary hover:bg-gray-200" key={displayAbleMenu.id}>
                                 <NavLink to={`/${userType}/${displayAbleMenu.name}`} className=' border border-gray-300 p-2 shadow' style={({ isActive }) => {
                                     return {
@@ -67,19 +69,17 @@ const MenuType = () => {
                         )
                     }
                     {
-                        dropDownUrl ?
-                            <li className="font-sans hover:text-primary hover:bg-gray-200">
-                                <NavLink to={`/${userType}/${url}`} className='border border-gray-300 p-2 shadow' style={({ isActive }) => {
-                                    return {
-                                        backgroundColor: isActive ? '#EEEEEE' : 'inherit',
-                                        color: isActive ? '#4051b7' : 'inherit',
-                                        borderRadius: '0'
-                                    };
-                                }}>
-                                    <small>{dropDownUrl}</small>
-                                </NavLink>
-                            </li> :
-                            ''
+                        !menu &&
+                        <li className="font-sans hover:text-primary hover:bg-gray-200">
+                            <NavLink to={`/${userType}/${url}`} className='border border-gray-300 p-2 shadow' style={({ isActive }) => {
+                                return {
+                                    backgroundColor: isActive ? '#EEEEEE' : 'inherit',
+                                    color: isActive ? '#4051b7' : 'inherit',
+                                };
+                            }}>
+                                <small>{dropdown.label}</small>
+                            </NavLink>
+                        </li>
                     }
                     <button className="dropdown flex items-center" tabIndex={0}>
                         <div className='block'>
@@ -88,16 +88,15 @@ const MenuType = () => {
                                 <svg className="fill-current -mb-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
                             </span>
                             <ul className="w-max menu menu-compact dropdown-content bg-base-100 text-accent mt-2">
-                                {dropdownMenus.map(dropdownMenu =>
+                                {dropdownItems.map(dropdownMenu =>
                                     <li className="font-sans hover:text-primary hover:bg-gray-200" key={dropdownMenu.id} onClick={handleSubmit}>
                                         <NavLink to={`/${userType}/${dropdownMenu.name}`} className='border border-gray-300 shadow' style={({ isActive }) => {
                                             return {
-                                                backgroundColor: isActive ? '#EEEEEE' : 'inherit',
-                                                color: isActive ? '#4051b7' : 'inherit',
-                                                borderRadius: '0'
+                                                backgroundColor: 'inherit',
+                                                display: isActive && 'none'
                                             };
                                         }}>
-                                            <small onClick={handleSubmit}>{dropdownMenu.label}</small>
+                                            <small>{dropdownMenu.label}</small>
                                         </NavLink>
                                     </li>)
                                 }
@@ -114,10 +113,10 @@ const MenuType = () => {
                         )
                     }
                 </ul>
-            </div >
+            </div>
             <Resources></Resources>
             <About></About>
-        </div>
+        </div >
     );
 };
 
