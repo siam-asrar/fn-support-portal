@@ -65,8 +65,9 @@ const Components = () => {
                             </>
                             :
                             <form onSubmit={() => setComponents(components)}>
-                                {!components ?
-                                    <small className='font-bold'>Filtering No items found by Search: {searchCriteria}
+                                {!
+                                    components ?
+                                    <small className='font-bold'>No items found by Search: {searchCriteria}
                                         <br /><button type="submit" title='Reset Filter' className='text-primary hover:text-lg'><FaRegTrashAlt></FaRegTrashAlt></button>
                                     </small>
                                     :
@@ -81,7 +82,7 @@ const Components = () => {
                     {
                         components.map(component =>
                             <Link to={`/dashboard/component/${component.name}`}>
-                                <li className="text-lg bg-blend-hue flex items-center justify-around p-4 sm:py-8 lg:py-12 border-2 border-t-secondary rounded-md text-secondary font-sans border-gray-100 w-72 h-40  shadow-lg hover:bg-blue-100" title={component.about} >
+                                <li className="text-md bg-blend-hue flex items-center justify-around p-4 sm:py-8 lg:py-12 border-2 border-t-primary rounded-md text-secondary font-sans border-gray-100 w-72 h-40  shadow-lg hover:bg-blue-100" title={component.about} >
                                     <small>{component.name}</small>
                                 </li>
                             </Link>
