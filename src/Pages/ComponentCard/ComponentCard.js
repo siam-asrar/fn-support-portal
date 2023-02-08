@@ -52,6 +52,7 @@ const ComponentCard = () => {
                     <Line strokeWidth={2} type="monotone" dataKey="salesforce" stroke="#82ca9e" activeDot={{ r: 6 }} />
                 </LineChart>
             </ResponsiveContainer>
+            <h1>These are details about specific components</h1>
         </div >
     );
 };
