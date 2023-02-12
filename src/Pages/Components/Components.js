@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FaRegTrashAlt } from 'react-icons/fa';
+import { FaRegTrashAlt, FaMinusCircle, FaUserPlus } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Components = () => {
@@ -78,14 +78,26 @@ const Components = () => {
                             </form>
                     }
                 </div>
-                <ul className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 pt-10 my-5'>
+                <ul className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 pt-10 mt-5'>
                     {
-                        components.map(component =>
-                            <Link to={`/dashboard/component/${component.name}`}>
-                                <li className="text-md bg-blend-hue flex items-center justify-around p-4 sm:py-8 lg:py-12 border-2 border-t-primary rounded-md text-secondary font-sans border-gray-100 w-72 h-40  shadow-lg hover:bg-blue-100" title={component.about} >
-                                    <small>{component.name}</small>
+                        components.map((component, i) =>
+                            <Link
+                                to={`/dashboard/component/${component.name}`}>
+                                {
+                                    component.status === 'Unhealthy' &&
+                                    <FaMinusCircle title={`Status: ${component.status}`} className='text-xs -mb-5 m-2 text-red-500 animate-pulse'></FaMinusCircle>
+                                }
+                                <div className='flex justify-end'>
+                                    <FaUserPlus title="Subscribe" className='text-xs -mb-5 m-2'></FaUserPlus>
+                                </div>
+                                <li key={i}
+                                    className="text-xs bg-blend-lighten flex items-center justify-around p-10 mb-5 sm:py-8 lg:py-12 border-2 border-t-primary rounded-md text-secondary font-sans border-gray-100 w-72 h-40 shadow-md hover:bg-blue-100"
+                                    title={component.about}
+                                >
+                                    {component.name}
                                 </li>
                             </Link>
+
                         )
                     }
                 </ul>
