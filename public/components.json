@@ -1,532 +1,434 @@
 [
     {
         "name": "Analytics UI service",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Approval side drawer",
-        "status": "Unhealthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Auto-dispatch",
-        "status": "Unhealthy",
+        "issue": {
+            "jira": 10,
+            "salesforce": 12
+        },
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Bundles",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Centralize Login/Authentication via Cogntio controlled by Ambassador Edge Stack",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Centralized payment calculation (Calculate-Pay service)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Checkr Integration for provider screenings",
-        "status": "Healthy",
+        "issue": {
+            "jira": 10,
+            "salesforce": 11
+        },
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Client API",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Client Portals",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Contract service and integration with SF",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Convert existing class components to functional components",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Counter Offers",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Counter service",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Coverage/Pricing insights",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Credentials",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Cucumber test framework",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Custom Fields",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Custom Integration (NodeRed)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Custom onboarding (Eligibility)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Customer Invoicing",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Data warehouse",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Deliverables",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Education Center",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Email content",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Email receiving",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Email sending",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Enterprise engagement compliance",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Equipment Rental",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "export-progress-bar",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Flightboard (Buyer)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Flightboard At Risk (on my way)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "fn-spreadsheet",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Font Icon",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Fund Management",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Marketplace Pricing Insights",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Mass Work Order Edit",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Mass Work Order Import",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Mobile",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Mobile (third party library maintenance)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Mobile Apps",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Mobile Deeplinking",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Mobile Native",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Mobile Push Notifications",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Mobile RN",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Mobile WebView",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Monolith PHP base",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Multi-Location (Multi-site) work orders",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "nest-common",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Network Development Tool",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Node upgrades",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Old Push back",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Packaged / Out of box integrations",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Parity with latest OS of iOS Android React Native",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Parity with latest SDKs of iOS Android React Native",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Parts & Materials",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Pay Display (pay card UI)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Payment Terms",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "PC-Widgets",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Platform Components",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Platform → Field Nation Salesforce integration",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Pre-vetting / Provider assessments",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Pricing and Coverage",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Provider & Work Order Notes",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Provider availability service (provider-availability)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Provider Classifications / Biz Badge",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Provider Drawer",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Provider Match service",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Provider Payments",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Provider Talent Page",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Provider Tax Documents",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Provider Unassignment & WO Cancellation",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "provider-onboarding-ui",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Publishing + Requesting",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Push notification delivery",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Qualifications",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Ratings",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Recruitments",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Report a Problem",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Role Service",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Routing + Accepting",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Selection Rules",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Service Company Management Page (staff/manage/service-company)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Service Company Page",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Shipment Tracking",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Skill Discovery",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "SmartAudit",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "SmartMatch",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "SOAP API",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Storage Solution",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Tableau",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Talent Pools / Smart talent pools",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Talent Types (Private Networks)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Tasks",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Taxonomies (device)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Template Create/Edit",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Test Data Generator (TAI)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Time Logging",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "TripLog: mileage-tracking microservice",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "User (provider) Profile",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Verifications",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Webhooks",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Work order activity report",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Work Order Creation",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Work Order Detail - Find Providers",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Work Order Tax",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     },
     {
         "name": "Worksmart Connect (WSC)",
-        "status": "Healthy",
         "about": "This is the about Section, this is about component"
     }
 ]

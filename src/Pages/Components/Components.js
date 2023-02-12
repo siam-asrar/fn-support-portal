@@ -8,6 +8,8 @@ const Components = () => {
     const [hidden, setHidden] = useState(true);
     const [searchCriteria, setSearchCriteria] = useState('');
 
+    const issues = components.filter(component => component.name).filter(component => component.issue).filter(i => i.issue.jira + i.issue.salesforce > 20).map(component => component.name);
+
     const handleSubmit = (event) => {
         event.preventDefault();
 
@@ -81,23 +83,18 @@ const Components = () => {
                 <ul className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 pt-10 mt-5'>
                     {
                         components.map((component, i) =>
-                            <Link
-                                to={`/dashboard/component/${component.name}`}>
+                            <Link key={i} to={`/dashboard/component/${component.name}`}>
                                 {
-                                    component.status === 'Unhealthy' &&
-                                    <FaMinusCircle title={`Status: ${component.status}`} className='text-xs -mb-5 m-2 text-red-500 animate-pulse'></FaMinusCircle>
+                                    issues.includes(component.name) &&
+                                    <FaMinusCircle title='Status: Unhealthy' className='text-xs -mb-5 m-2 text-red-500 animate-pulse'></FaMinusCircle>
                                 }
                                 <div className='flex justify-end'>
                                     <FaUserPlus title="Subscribe" className='text-xs -mb-5 m-2'></FaUserPlus>
                                 </div>
-                                <li key={i}
-                                    className="text-xs bg-blend-lighten flex items-center justify-around p-10 mb-5 sm:py-8 lg:py-12 border-2 border-t-primary rounded-md text-secondary font-sans border-gray-100 w-72 h-40 shadow-md hover:bg-blue-100"
-                                    title={component.about}
-                                >
+                                <li className="text-xs bg-blend-lighten flex items-center justify-around p-10 mb-5 sm:py-8 lg:py-12 border-2 border-t-primary rounded-md text-secondary font-sans border-gray-100 w-72 h-40 shadow-md hover:bg-blue-100" title={component.about}>
                                     {component.name}
                                 </li>
                             </Link>
-
                         )
                     }
                 </ul>
