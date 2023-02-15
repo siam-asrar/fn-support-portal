@@ -56,7 +56,8 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/dashboard/component/:name',
-                element: <ComponentCard></ComponentCard>
+                element: <ComponentCard></ComponentCard>,
+                loader: () => fetch(`/components.json`)
             }
         ]
     }

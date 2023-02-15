@@ -5,6 +5,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -13,7 +41,35 @@
             "jira": 10,
             "salesforce": 11
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Speedup and makes easier work order approving process."
     },
     {
         "name": "Auto-dispatch",
@@ -21,6 +77,34 @@
             "jira": 10,
             "salesforce": 14
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -29,7 +113,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Current primary function is to incentivize selecting multiple work orders (all or nothing). This may need to get revisited as it is commonly used to drive engagement styles. However, as it is now I believe the workflow beyond the initial publish/assignment is all independent."
     },
     {
         "name": "Centralize Login-Authentication via Cogntio controlled by Ambassador Edge Stack",
@@ -37,7 +149,35 @@
             "jira": 10,
             "salesforce": 12
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Decouple the authentication from mono into its own service. This will allow for a simpler code base and a much more customization UI while being resilient from any mono/ui downtown. This will also enable other teams to not have to worry about re implementing JWT or OAUTH as we can forward the headers to the downstream service after initial authentication."
     },
     {
         "name": "Centralized payment calculation (Calculate-Pay service)",
@@ -45,7 +185,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Work previously done on Marketplace and then Talent Discovery, but moved to Platform June 2020 after being successful brought to all buyers"
     },
     {
         "name": "Checkr Integration for provider screenings",
@@ -53,7 +221,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Integrated partner to bring value to the overall product ecosystem"
     },
     {
         "name": "Client API",
@@ -61,6 +257,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -69,7 +293,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Originated from FN1 efforts on former FMS/NMD team. Gives buyers ability to use custom domains."
     },
     {
         "name": "Contract service and integration with SF",
@@ -77,6 +329,34 @@
             "jira": 10,
             "salesforce": 14
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -85,6 +365,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -93,6 +401,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -101,6 +437,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -109,7 +473,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "This would be about how we incorporate the work of data science team into the product. The methods for providing the data are owned by data science."
     },
     {
         "name": "Credentials",
@@ -117,7 +509,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Buyers need to vet the licenses and certifications a tech has."
     },
     {
         "name": "Cucumber test framework",
@@ -125,6 +545,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -133,6 +581,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -141,6 +617,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -149,7 +653,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Originated from FN1 efforts on former FMS/NMD team"
     },
     {
         "name": "Customer Invoicing",
@@ -157,7 +689,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "This is for FN collecting payments from our customers. Not to be confused with “client invoicing” which is a feature for our customers to invoice their clients"
     },
     {
         "name": "Data warehouse",
@@ -165,6 +725,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -173,6 +761,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -181,7 +797,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "By creating a center for providers to share and learn new skills, providers can build their profile and further expose their skills on FN."
     },
     {
         "name": "Email content",
@@ -189,7 +833,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "The capability to send emails is in the email service feature (in platform above), but the actual content of specific emails should go to the team that owns the feature the content is about."
     },
     {
         "name": "Email receiving",
@@ -197,7 +869,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Incoming email gets parsed routed correctly to areas in the platform (e.g. replying to workorder from email shows in work order messages)"
     },
     {
         "name": "Email sending",
@@ -205,7 +905,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Emails and sms messages are delivered"
     },
     {
         "name": "Enterprise engagement compliance",
@@ -213,6 +941,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -221,14 +977,70 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
-        "name": "export-progress-bar",
+        "name": "Export-Progress-Bar",
         "issue": {
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -237,7 +1049,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "A dashboard where buyer can see all the work orders in different statuses."
     },
     {
         "name": "Flightboard At Risk (on my way)",
@@ -245,15 +1085,71 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "A quick overview of the work orders those are at risk or reminders to the providers that need actions on the work orders."
     },
     {
-        "name": "fn-spreadsheet",
+        "name": "FN-Spreadsheet",
         "issue": {
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Helper library for generating, manipulating, and exporting csv and xls spreadsheets."
     },
     {
         "name": "Font Icon",
@@ -261,7 +1157,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Concurrency with Platform Components"
     },
     {
         "name": "Fund Management",
@@ -269,6 +1193,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -277,7 +1229,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "This would be about how we incorporate the work of data science team into the product. The methods for providing the data are owned by data science."
     },
     {
         "name": "Mass Work Order Edit",
@@ -285,7 +1265,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Ability to edit multiple work orders with one form. Functionality lives in the work order list under the edit button."
     },
     {
         "name": "Mass Work Order Import",
@@ -293,7 +1301,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Creating mass work orders through CSV files. \nWork orders can be created through a template based on CSV settings. \nWork orders can be created and routed at the same time based on the CSV."
     },
     {
         "name": "Mobile",
@@ -301,7 +1337,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Firebase, Amplitude, Intercom, Transistorsoft integration is critical to measuring impact of features and bugfixes."
     },
     {
         "name": "Mobile (third party library maintenance)",
@@ -309,6 +1373,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -317,7 +1409,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Ensuring stability and speed of FN apps on iOS and Android keeps providers engaged and happy."
     },
     {
         "name": "Mobile Deeplinking",
@@ -325,7 +1445,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Links from emails and other notifications should open the mobile app and redirect to the correct view"
     },
     {
         "name": "Mobile Native",
@@ -333,6 +1481,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -341,7 +1517,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Users interact with push notifications that mobile needs to handle accordingly"
     },
     {
         "name": "Mobile RN",
@@ -349,7 +1553,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "React Native components in the mobile app help keep feature parity between iOS and Android while enabling other teams to contribute to the mobile codebase"
     },
     {
         "name": "Mobile WebView",
@@ -357,7 +1589,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Features lacking their own RN component are supplemented with WebViews (onboarding, tax info, profile, etc.)"
     },
     {
         "name": "Monolith PHP base",
@@ -365,7 +1625,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Base image and language version upgrades are foundational"
     },
     {
         "name": "Multi-Location (Multi-site) work orders",
@@ -373,14 +1661,70 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Drives an engagement style related to how work is performed."
     },
     {
-        "name": "nest-common",
+        "name": "Nest-Common",
         "issue": {
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -389,6 +1733,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -397,7 +1769,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Base image and language version upgrades are foundational for all our microservices."
     },
     {
         "name": "Old Push back",
@@ -405,7 +1805,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "No longer supported, replaced by Webhooks."
     },
     {
         "name": "Packaged - Out of box integrations",
@@ -413,7 +1841,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "V2, V3 integrations."
     },
     {
         "name": "Parity with latest OS of iOS Android React Native",
@@ -421,6 +1877,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -429,6 +1913,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -437,6 +1949,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -445,7 +1985,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Total cost and details view of the work order pay. Different types of service fees, labor, bonus, penalties, discounts, and expenses. Data source: monolith+calculate-pay."
     },
     {
         "name": "Payment Terms",
@@ -453,7 +2021,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Some aspects of implementation that are in the fund and payment logic are owned by Platform, but best to start with provider team and let them redirect if it’s in that area."
     },
     {
         "name": "PC-Widgets",
@@ -461,7 +2057,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Central hub for all fieldnation react widgets."
     },
     {
         "name": "Platform Components",
@@ -469,7 +2093,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Central hub for all fieldnation react components"
     },
     {
         "name": "Platform → Field Nation Salesforce integration",
@@ -477,6 +2129,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -485,7 +2165,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Buyer can add a survey to a work order and provider can take the survey. It will help to assign a provider to a work order."
     },
     {
         "name": "Pricing and Coverage",
@@ -493,7 +2201,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "New service to replace the v2 functionality of Pricing Insights. It allows us to leverage the technology already used by our company and moves it to node which other developers will know and understand. Also it takes load off of the Pricing Insights service which is already heavily used for other pricing metrics."
     },
     {
         "name": "Provider & Work Order Notes",
@@ -501,7 +2237,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": " It’s used for vetting."
     },
     {
         "name": "Provider availability service (provider-availability)",
@@ -509,7 +2273,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Originated from FN1 efforts on former FMS/NMD team."
     },
     {
         "name": "Provider Classifications - Biz Badge",
@@ -517,6 +2309,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -525,7 +2345,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Being able to quickly vet and view a tech from a drawer. \nAlso called ProviderSnapshot."
     },
     {
         "name": "Provider Match service",
@@ -533,6 +2381,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -541,6 +2417,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -549,6 +2453,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -557,6 +2489,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -565,7 +2525,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Is included with Vetting and Matching because this is often due to a mismatch of the provider to the work order."
     },
     {
         "name": "Provider-Onboarding-UI",
@@ -573,7 +2561,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "New provider onboarding service."
     },
     {
         "name": "Publishing + Requesting",
@@ -581,7 +2597,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Includes mass routing."
     },
     {
         "name": "Push notification delivery",
@@ -589,6 +2633,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -597,7 +2669,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Vetting engine to match end client requirements at the work order, company and project level against talent, providing rationale to both parties in real time (with corrective action or bypass opportunities) when connections (route, assign, etc.) are attempted."
     },
     {
         "name": "Ratings",
@@ -605,7 +2705,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Based on ratings being more heavily tied to impacting how users choose to work with each other."
     },
     {
         "name": "Recruitments",
@@ -613,7 +2741,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Sourcing and discovery of new talent as well as staged vetting to ensure it’s the right talent for new and challenging verticals."
     },
     {
         "name": "Report a Problem",
@@ -621,7 +2777,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "This is an established feature in the work order."
     },
     {
         "name": "Role Service",
@@ -629,7 +2813,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Central hub for creating granular resource level permissions."
     },
     {
         "name": "Routing + Accepting",
@@ -637,6 +2849,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -645,7 +2885,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Matchmaking tool part of talent discovery process"
     },
     {
         "name": "Service Company Management Page (staff-manage-service-company)",
@@ -653,6 +2921,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -661,7 +2957,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Originated from FN1 efforts on former FMS/NMD team"
     },
     {
         "name": "Shipment Tracking",
@@ -669,7 +2993,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "This is an established feature in the WO details."
     },
     {
         "name": "Skill Discovery",
@@ -677,6 +3029,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -685,7 +3065,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Buyer can create some rules and apply that in the work order level. Based on the rules the work gets approved."
     },
     {
         "name": "SmartMatch",
@@ -693,7 +3101,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Work-order-publish service has been refactored to solely support SmartMatch"
     },
     {
         "name": "SOAP API",
@@ -701,7 +3137,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "No longer Supported. Everyone migrated to Rest API."
     },
     {
         "name": "Storage Solution",
@@ -709,7 +3173,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Dropbox."
     },
     {
         "name": "Tableau",
@@ -717,6 +3209,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -725,7 +3245,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Combines ranking with filtering to dynamically sort and group talent based on detailed hard and soft end client requirements. It provides for vetting and onboarding of new talent into these buckets by also exposing those client needs to the provider for action."
     },
     {
         "name": "Talent Types (Private Networks)",
@@ -733,7 +3281,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Originated from FN1 efforts on former FMS/NMD team. This is with REO insomuch as it relates to the setup and onboarding of 3rd party providers."
     },
     {
         "name": "Tasks",
@@ -741,7 +3317,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Part of the definition of done of a work order. Adding/editing/deleting task by the buyers. Mark Complete/incomplete the tasks by buyer/providers."
     },
     {
         "name": "Taxonomies (device)",
@@ -749,7 +3353,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Repository of devices that can be associated with work on work orders and track relationships. Formerly owned by Platform but transitioned to SKL as it’s closer in relationship to skill attribution."
     },
     {
         "name": "Template Create-Edit",
@@ -757,7 +3389,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Makes work order creation easier by using a saved template. Create and editability of the templates. "
     },
     {
         "name": "Test Data Generator (TAI)",
@@ -765,6 +3425,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -773,7 +3461,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Basically, check-in/check-out and add/edit time logs in work orders."
     },
     {
         "name": "TripLog: mileage-tracking microservice",
@@ -781,7 +3497,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "TripLog is owned by PRO team, but Mobile Enablement will own the GPS tracking module that collects the GPS data."
     },
     {
         "name": "User (provider) Profile",
@@ -789,7 +3533,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Provides the analytics and user interface for viewing various profiles and roles."
     },
     {
         "name": "Verifications",
@@ -797,6 +3569,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -805,7 +3605,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Replacement for Old Push back with support for multiple endpoints and subscribing to specific events."
     },
     {
         "name": "Work order activity report",
@@ -813,7 +3641,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "Generating and downloading reports on work orders activity. Reports can be configured with various field selection"
     },
     {
         "name": "Work Order Creation",
@@ -821,7 +3677,35 @@
             "jira": 10,
             "salesforce": 10
         },
-        "about": "This is the about Section, this is about component"
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
+        "about": "The fundamental step of the workflow. As the majority of the work order creation is to enable performing of the work, it should be owned by Field Service Utility. \nIt’s important to note that information that helps identify the correct supply (e.g. type of work) will be more related to Talent Discovery to enable the publishing of the work."
     },
     {
         "name": "Work Order Detail - Find Providers",
@@ -829,6 +3713,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -837,6 +3749,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     },
     {
@@ -845,6 +3785,34 @@
             "jira": 10,
             "salesforce": 10
         },
+        "owned_by": "Vetting and matching (VET)",
+        "data": [
+            {
+                "name": "Jan",
+                "salesforce": 50,
+                "jira": 24
+            },
+            {
+                "name": "Feb",
+                "salesforce": 98,
+                "jira": 13
+            },
+            {
+                "name": "Mar",
+                "salesforce": 200,
+                "jira": 98
+            },
+            {
+                "name": "Apr",
+                "salesforce": 39,
+                "jira": 98
+            },
+            {
+                "name": "May",
+                "salesforce": 48,
+                "jira": 18
+            }
+        ],
         "about": "This is the about Section, this is about component"
     }
 ]

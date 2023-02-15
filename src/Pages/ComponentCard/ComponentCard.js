@@ -1,42 +1,20 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 
 const ComponentCard = () => {
-    const componentName = window.location.href.split('/').pop().split(/%|20|-/).join(' ');
+    const componentName = window.location.href.split('/').pop().split(/%20/).join(' ');
+    const components = useLoaderData();
+    const currentComponent = components.filter(component => component.name).find(i => i.name.includes(componentName));
+    const data = currentComponent.data;
+    const about = currentComponent.about;
 
-    const data = [
-        {
-            name: "Jan",
-            salesforce: 50,
-            jira: 24
-        },
-        {
-            name: "Feb",
-            salesforce: 98,
-            jira: 13
-        },
-        {
-            name: "Mar",
-            salesforce: 200,
-            jira: 98
-        },
-        {
-            name: "Apr",
-            salesforce: 39,
-            jira: 98
-        },
-        {
-            name: "May",
-            salesforce: 48,
-            jira: 18
-        }
-    ];
     return (
         <section className='lg:h-full'>
             <h1 className="text-2xl font-serif leading-none mt-5">{componentName}</h1>
             <p className='text-sm pt-5'>Number of Issues reported per month.</p>
-            <ResponsiveContainer className='hover:text-orange-500 bg-blend-lighten mx-auto hover:shadow-md hover:border my-2' width={400} height={300}>
+            <ResponsiveContainer className='hover:text-orange-500 bg-blend-lighten mx-auto hover:shadow-md hover:border my-2' width={540} height={320}>
                 <LineChart
                     data={data}
                     margin={{
@@ -45,7 +23,7 @@ const ComponentCard = () => {
                         left: -15,
                         bottom: 5
                     }}
-                    title={`Issue Insights: ${componentName}`}
+                    title={`${componentName}: Insights`}
                 >
                     <CartesianGrid strokeDasharray='3 3' strokeOpacity={0.4} stroke="#4051b7" />
                     <XAxis dataKey="name" />
@@ -56,6 +34,9 @@ const ComponentCard = () => {
                     <Line strokeWidth={1.5} type="monotone" dataKey="salesforce" stroke="#2bd062" activeDot={{ r: 6 }} />
                 </LineChart>
             </ResponsiveContainer>
+            <p className='text-sm pt-5'>About this component</p>
+            <p className='bg-blend-lighten w-1/3 px-10 py-5 hover:shadow-md hover:border mx-auto text-md font-serif italic leading-none my-2'>{`${componentName}: ${about}`}
+            </p>
         </section>
     );
 };
